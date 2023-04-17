@@ -1,0 +1,38 @@
+.container-xp {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+}
+
+.description-xp {
+  width: 30%;
+  padding: 0;
+}
+
+.xp-list {
+  height: 2em;
+  padding: 0.4em;
+  margin-right: 4em;
+  background-color: lightgray;
+  color: red;
+}
+
+.container-description-xp {
+  width: 70%;
+}
+
+h3 {
+  overflow: hidden;
+  animation: reveal 2s ease-in-out;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
