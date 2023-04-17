@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 4em;
+}
+
+.description {
+  width: 60%;
+  padding: 2em;
+}
+
+h2 {
+  overflow: hidden;
+  animation: reveal 2s ease-in-out;
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.buttons button {
+  width: 12em;
+  height: 4em;
+  margin: 0.2em;
+  background-color: purple;
+  border: none;
+  border-radius: 0.6em;
+  color: aliceblue;
+}
+
+.buttons button:hover {
+  background-color: rgb(194, 15, 194);
+  cursor: pointer;
+  transform: scale(1.02);
+}
+
+.div-photo {
+  width: 40%;
+}
+
+div img {
+  width: 24em;
+  border-radius: 50%;
+}
