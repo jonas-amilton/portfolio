@@ -23,8 +23,24 @@ function CardInicio() {
             trabalhar com você em seu próximo projeto.
           </p>
           <div className="buttons">
-            <button>Linkedin</button>
-            <button>GitHub</button>
+            <button>
+              <a
+                href="https://www.linkedin.com/in/jonas-ag-silva"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                LINKEDIN
+              </a>
+            </button>
+            <button>
+              <a
+                href="https://github.com/jonas-amilton"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                GITHUB
+              </a>
+            </button>
           </div>
         </div>
         <div className="div-photo">
