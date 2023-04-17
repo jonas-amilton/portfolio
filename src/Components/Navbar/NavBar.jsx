@@ -7,7 +7,9 @@ function NavBar() {
     <>
       <header>
         <div className="title">
-          <BiCodeCurly size={35} color="red" />
+          <div style={{ marginTop: "1.6em" }}>
+            <BiCodeCurly size={35} color="red" />
+          </div>{" "}
           <h1>Jonas Silva</h1>
         </div>
         <nav className="navbar">
