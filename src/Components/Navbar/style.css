@@ -19,7 +19,12 @@ header {
   margin: 0.6em;
 }
 
-.navlinks:hover {
+.navlinks a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navlinks a:hover {
   color: red;
   cursor: pointer;
 }

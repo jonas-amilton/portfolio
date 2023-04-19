@@ -9,31 +9,6 @@
   padding: 2em;
 }
 
-.buttons {
-  display: flex;
-  justify-content: flex-start;
-}
-
-.buttons a {
-  text-decoration: none;
-  color: aliceblue;
-}
-
-.buttons button {
-  width: 12em;
-  height: 4em;
-  margin: 0.2em;
-  background-color: purple;
-  border: none;
-  border-radius: 0.6em;
-}
-
-.buttons button:hover {
-  background-color: rgb(194, 15, 194);
-  cursor: pointer;
-  transform: scale(1.02);
-}
-
 .div-photo {
   width: 40%;
 }

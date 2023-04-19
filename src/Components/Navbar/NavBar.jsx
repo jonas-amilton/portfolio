@@ -13,11 +13,24 @@ function NavBar() {
           <h1>Jonas Silva</h1>
         </div>
         <nav className="navbar">
-          <div className="navlinks">Inicio</div>
-          <div className="navlinks">Experiências</div>
-          <div className="navlinks">Projetos</div>
-          <div className="navlinks">Conhecimentos</div>
-          <div className="navlinks">Contato</div>
+          <div className="navlinks">
+            <a
+              href="https://www.linkedin.com/in/jonas-ag-silva"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              LINKEDIN
+            </a>
+          </div>
+          <div className="navlinks">
+            <a
+              href="https://github.com/jonas-amilton"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              GITHUB
+            </a>
+          </div>
         </nav>
       </header>
     </>
