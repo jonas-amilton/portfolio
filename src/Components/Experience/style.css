@@ -1,7 +1,9 @@
 .container-xp {
   display: flex;
   justify-content: space-around;
-  padding: 4em;
+  padding: 6em;
+  background-color: #000;
+  color: aliceblue;
 }
 
 .description-xp {
@@ -15,6 +17,7 @@
   margin-right: 4em;
   background-color: lightgray;
   color: red;
+  border-radius: 0.2em;
 }
 
 .container-description-xp {

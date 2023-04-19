@@ -7,7 +7,7 @@ function Experience() {
       <div className="container-xp">
         <div className="description-xp">
           <h2>Experiência</h2>
-          <div className="xp-list">Marca RS Technology</div>
+          <div className="xp-list">MARCA RS TECHNOLOGY</div>
         </div>
         <div className="container-description-xp">
           <div className="description-xp">
