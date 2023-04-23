@@ -7,6 +7,7 @@
 .description {
   width: 60%;
   padding: 2em;
+  margin-top: 3em;
 }
 
 .div-photo {
@@ -14,6 +15,7 @@
 }
 
 div img {
+  margin-top: 3em;
   width: 24em;
   border-radius: 50%;
 }
@@ -31,5 +33,20 @@ h2 {
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+  }
+  .description {
+    width: 100%;
+    padding: 0;
+  }
+  .div-photo {
+    display: none;
   }
 }

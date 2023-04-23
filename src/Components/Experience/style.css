@@ -39,3 +39,29 @@ h3 {
     transform: translateY(0);
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .container-xp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .description-xp {
+    width: 100%;
+    padding: 0;
+    text-align: center;
+  }
+
+  .xp-list {
+    display: none;
+  }
+
+  .container-description-xp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+  }
+}

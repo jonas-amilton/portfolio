@@ -1,6 +1,6 @@
 import React from "react";
 import "../CardInicio/style.css";
-import foto from "./images/profile.JPG";
+import foto from "../../assets/profile.JPG";
 
 function CardInicio() {
   return (

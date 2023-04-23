@@ -9,3 +9,9 @@
   padding: 0.6em;
   color: aliceblue;
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    text-align: center;
+  }
+}
