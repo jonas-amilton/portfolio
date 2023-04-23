@@ -22,24 +22,22 @@ const cards = [
     description: "Description for Card 4",
     image: "https://via.placeholder.com/150",
   },
-  {
-    title: "Card 5",
-    description: "Description for Card 5",
-    image: "https://via.placeholder.com/150",
-  },
 ];
 
 const Projects: React.FC = () => {
   return (
     <>
-      <div className="cards-container">
-        {cards.map((card, index) => (
-          <div className="card" key={index}>
-            <img src={card.image} alt={card.title} />
-            <h3>{card.title}</h3>
-            <p>{card.description}</p>
-          </div>
-        ))}
+      <div className="container-cards">
+        <h2>Projetos</h2>
+        <div className="cards">
+          {cards.map((card, index) => (
+            <div className="card" key={index}>
+              <img src={card.image} alt={card.title} />
+              <h3>{card.title}</h3>
+              <p>{card.description}</p>
+            </div>
+          ))}
+        </div>
       </div>
     </>
   );
