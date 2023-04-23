@@ -1,8 +1,9 @@
 import "./App.css";
 import CardInicio from "./Components/CardInicio/CardInicio";
 import Experience from "./Components/Experience/Experience";
+import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/Navbar/NavBar";
-import Projects from "./Components/Projects/Projects.tsx";
+import Projects from "./Components/Projects/Projects";
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <CardInicio />
       <Experience />
       <Projects />
+      <Footer />
     </>
   );
 }

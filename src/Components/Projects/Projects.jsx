@@ -24,7 +24,7 @@ const cards = [
   },
 ];
 
-const Projects: React.FC = () => {
+const Projects = () => {
   return (
     <>
       <div className="container-cards">
