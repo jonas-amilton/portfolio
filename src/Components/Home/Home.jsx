@@ -1,8 +1,8 @@
 import React from "react";
-import "../CardInicio/style.css";
+import "../Home/style.css";
 import foto from "../../assets/profile.JPG";
 
-function CardInicio() {
+function Home() {
   return (
     <>
       <div className="container">
@@ -30,4 +30,4 @@ function CardInicio() {
   );
 }
 
-export default CardInicio;
+export default Home;

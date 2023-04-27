@@ -1,5 +1,5 @@
 import "./App.css";
-import CardInicio from "./Components/CardInicio/CardInicio";
+import Home from "./Components/Home/Home";
 import Experience from "./Components/Experience/Experience";
 import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/Navbar/NavBar";
@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <NavBar />
-      <CardInicio />
+      <Home />
       <Experience />
       <Projects />
       <Footer />
