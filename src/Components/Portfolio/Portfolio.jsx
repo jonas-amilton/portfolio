@@ -1,26 +1,74 @@
 import React from "react";
 import "./style.css";
 
+import paginaRecados from "../../assets/demo/pagina-recados.jpeg";
+import registroVendas from "../../assets/demo/registro-vendas.jpeg";
+import siteClima from "../../assets/demo/site-clima.jpeg";
+import siteMapas from "../../assets/demo/site-mapas.jpeg";
+
 const cards = [
   {
-    title: "Card 1",
-    description: "Description for Card 1",
-    image: "https://via.placeholder.com/150",
+    title: "Página de Recados",
+    description: (
+      <p>
+        <a
+          href="https://avaliacao-final-modulo-front-end.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Projeto hospedado no Vercel{" "}
+        </a>
+      </p>
+    ),
+
+    image: paginaRecados,
   },
   {
-    title: "Card 2",
-    description: "Description for Card 2",
-    image: "https://via.placeholder.com/150",
+    title: "Registro de Vendas",
+    description: (
+      <p>
+        <a
+          href="https://prova-frameworks-desenvolvimento-web.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Projeto hospedado no Vercel{" "}
+        </a>
+      </p>
+    ),
+    image: registroVendas,
   },
   {
-    title: "Card 3",
-    description: "Description for Card 3",
-    image: "https://via.placeholder.com/150",
+    title: "Site de Clima",
+    description: (
+      <p>
+        <a
+          href="https://site-de-clima-react-js.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Projeto hospedado no Vercel{" "}
+        </a>
+      </p>
+    ),
+
+    image: siteClima,
   },
   {
-    title: "Card 4",
-    description: "Description for Card 4",
-    image: "https://via.placeholder.com/150",
+    title: "Site de Mapas",
+    description: (
+      <p>
+        <a
+          href="https://pagina-de-mapas.vercel.app/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Projeto hospedado no Vercel{" "}
+        </a>
+      </p>
+    ),
+
+    image: siteMapas,
   },
 ];
 
