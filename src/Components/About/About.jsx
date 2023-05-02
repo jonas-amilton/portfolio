@@ -12,7 +12,7 @@ function About() {
           <p>
             Eu sou um desenvolvedor Front-end apaixonado por criar interfaces de
             usuário impressionantes e interativas para sites e aplicativos web.
-            Com conhecimento em HTML, CSS, BootStrap, JavaScripte React JS, sou
+            Com conhecimento em HTML, CSS, BootStrap, JavaScript e React JS, sou
             capaz de criar layouts responsivos e intuitivos. Eu valorizo a
             colaboração e comunicação em equipe e estou sempre buscando maneiras
             de melhorar a experiência do usuário. Com atenção aos detalhes,
