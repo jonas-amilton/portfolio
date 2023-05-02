@@ -1,8 +1,8 @@
 import React from "react";
-import "../Home/style.css";
+import "../About/style.css";
 import foto from "../../assets/profile.JPG";
 
-function Home() {
+function About() {
   return (
     <>
       <div className="container">
@@ -30,4 +30,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default About;

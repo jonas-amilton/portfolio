@@ -24,7 +24,7 @@ const cards = [
   },
 ];
 
-const Projects = () => {
+const Portfolio = () => {
   return (
     <>
       <div className="container-cards">
@@ -43,4 +43,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Portfolio;

@@ -3,7 +3,7 @@ import About from "./Components/About/About";
 import Experience from "./Components/Experience/Experience";
 import Footer from "./Components/Footer/Footer";
 import NavBar from "./Components/Navbar/NavBar";
-import Projects from "./Components/Projects/Projects";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -11,7 +11,7 @@ function App() {
       <NavBar />
       <About />
       <Experience />
-      <Projects />
+      <Portfolio />
       <Footer />
     </>
   );
